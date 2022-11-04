@@ -37,6 +37,7 @@ DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'habit.User'
 
 if env("RENDER"):
     ALLOWED_HOSTS.append(env("RENDER_EXTERNAL_HOSTNAME"))
