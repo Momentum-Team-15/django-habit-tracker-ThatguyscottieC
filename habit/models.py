@@ -7,10 +7,6 @@ class User(AbstractUser):
     pass
 
 
-class User(AbstractUser):
-    pass
-
-
 class Habit(models.Model):
     name = models.CharField(max_length=255)
     metric = models.PositiveIntegerField()
